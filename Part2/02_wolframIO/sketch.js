@@ -10,8 +10,8 @@
 // server variables
 
 var dataServer;
-var pubKey = 'put your publish key here';
-var subKey = 'put your subscribe key here';
+var pubKey = 'pub-c-263051eb-6352-41bf-a5cb-f1062d297fba';
+var subKey = 'sub-c-255ef318-1f52-11e9-923b-9ef472141036';
 
 //input variables
 var sendText;
