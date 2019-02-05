@@ -10,8 +10,8 @@
 // server variables
 
 var dataServer;
-var pubKey = 'pub-c-263051eb-6352-41bf-a5cb-f1062d297fba';
-var subKey = 'sub-c-255ef318-1f52-11e9-923b-9ef472141036';
+var pubKey = 'xxx';
+var subKey = 'xxx';
 
 //input variables
 var sendText;
@@ -92,6 +92,8 @@ console.log(inMessage);  //log the entire response
     fill(0);  //read the color values from the message
     textSize(20);
     text(inMessage.message.answer, 5, height/2);
+
+
     returnedAnswer=inMessage.message.answer.split(" ");
 
 }
