@@ -7,10 +7,10 @@
  */
 
 
-var AIO_KEY = "";//get this from your account
+var AIO_KEY = "0f37150e9ca94af28605ccb0cc6bb662";//get this from your account
 var channelGroup = "ubiComp";
-var channel1 = "xPos";
-var channel2 = "yPos";
+var channel1 = "position1";
+var channel2 = "position2";
 
 
 
