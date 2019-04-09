@@ -46,7 +46,8 @@ function mousePressed()
 function sendData() 
 	{
         
-        var url = ("https://io.adafruit.com/api/v1/groups/"+channelGroup+"/send.json?x-aio-key=" + AIO_KEY + "&"+channel1+"=" + mouseX + "&"+channel2+"=" + mouseY);
+        var url = ("https://io.adafruit.com/api/v1/groups/"+channelGroup+"/send.json?x-aio-key=" + AIO_KEY + "&"+channel1+"=" + mouseX + "&"+channel2+"=" + mouseY+"&text1=hello there");
+        //var url = "https://io.adafruit.com/api/v1/groups/ubiubiComp/send.json?x-aio-key=0f37150e9ca94af28605ccb0cc6bb662&superfeed1=999&anothersuperfeed=222&notasgood=111";
         var oReq = new XMLHttpRequest()
         oReq.addEventListener("load", reqListener)
         oReq.open("POST", url)
